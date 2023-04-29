@@ -1,0 +1,41 @@
+def menu():
+    print("Operaciones")
+    print("1. Suma")
+    print("2. Resta")
+    print("3. Multiplicacion")
+    op = input ("Escriba la opcion: ")
+    op = int(op)
+    if op==1: suma()
+    elif op==2: resta()
+    elif op==3: multiplicacion()
+    
+def suma():
+    print("")
+    print ("Hacer sumas")
+    num1 = input("Numero 1: ")
+    num2 = input("Numero 2: ")
+    num1 = float(num1)
+    num2 = float(num2)
+    print ("Resultado: ", num1+num2)
+    print("")
+    
+def resta():
+    print("")
+    print ("Hacer restas")
+    num1 = input("Numero 1: ")
+    num2 = input("Numero 2: ")
+    num1 = float(num1)
+    num2 = float(num2)
+    print ("Resultado: ", num1-num2)
+    print("")
+
+def multiplicacion():
+    print("")
+    print ("Hacer multiplicaciones")
+    num1 = input("Numero 1: ")
+    num2 = input("Numero 2: ")
+    num1 = float(num1)
+    num2 = float(num2)
+    print ("Resultado: ", num1*num2)
+    print("")
+menu()
